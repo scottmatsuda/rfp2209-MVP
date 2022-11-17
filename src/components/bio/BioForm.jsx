@@ -53,16 +53,16 @@ const BioForm = ({setBio, setArt}) => {
           <input placeholder='last name' ref={lastName} />
         </div>
         <div>
-          <input placeholder='location' ref={location} />
+          <textarea placeholder='location' ref={location} />
         </div>
         <div>
           <textarea placeholder='brief bio' ref={body} />
         </div>
         <div>
-          <input placeholder='current offense' ref={offense} />
+          <textarea placeholder='current offense' ref={offense} />
         </div>
         <div>
-          <input placeholder='fun fact' ref={funFacts} />
+          <textarea placeholder='fun fact' ref={funFacts} />
         </div>
         <div className="flexbox-container">
           <div className="answer-photo">

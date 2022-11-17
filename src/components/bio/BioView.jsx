@@ -47,7 +47,6 @@ const BioView = ({setPreview, setBio, setArt, shortBio}) => {
           <h3>
             {shortBio.body}
           </h3>
-          &nbsp;
           <h3>
             {shortBio.funFacts}
           </h3>

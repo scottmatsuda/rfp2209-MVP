@@ -16,7 +16,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 // serve static files
-app.use(express.static('/inmate-etsy-vite/src/assets'));
+app.use(express.static('/src/assets'));
 
 app.post('/bio', (req, res) => {
   let bio = req.body;

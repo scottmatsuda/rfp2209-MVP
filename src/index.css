@@ -40,7 +40,7 @@ h1 {
 h2 {
   background: rgba(red, green, blue, alpha);
   color: white;
-  font-size: 2.75em;
+  font-size: 2.4em;
   line-height: 1.1;
   text-align: left;
   padding-top: 25px;
@@ -97,7 +97,7 @@ input {
   padding:5px;
   word-wrap: break-word;
   margin-block: inherit;
-  margin-top: -30px;
+  margin-top: -50px;
   text-align: left;
   margin-left: 60px;
   margin-right: 10px;

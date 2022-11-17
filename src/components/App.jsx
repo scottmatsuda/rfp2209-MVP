@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
-import collage from './assets/bios/collage.png';
-import BioForm from './BioForm.jsx';
-import ProjectForm from './ProjectForm.jsx';
+import collage from '../assets/bios/collage.png';
+import BioForm from '../components/bio/BioForm.jsx';
+import ProjectForm from '../components/project/ProjectForm.jsx';
 
 function App() {
 

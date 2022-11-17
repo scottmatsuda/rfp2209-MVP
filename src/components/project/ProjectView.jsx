@@ -30,7 +30,7 @@ const ProjectView = ({setBio, setArt, setPreview, project}) => {
         {project.photos?.map((photo, index) => {
           return (
             <div style={{padding:"10px"}}>
-              <img height="280px" width="300px" key={index} src={photo}/>
+              <img height="200px" width="225px" key={index} src={photo}/>
             </div>
           )})}
       </div>
